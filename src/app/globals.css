@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-emerald: #14532d;
+  --color-emerald-dark: #0f3f22;
+  --color-ivory: #faf7f0;
+  --color-gold: #c68a2b;
+  --color-charcoal: #2b2b2b;
+  --color-warm-gray: #6b6b6b;
+  --color-line: #d9d5cc;
+  --color-surface: #fffdfa;
+  --color-muted: #f1ede6;
+  --color-graphite: #2b2b2b;
+  --color-platinum: #d9d5cc;
+  --color-copper: #c68a2b;
+  --color-forest: #14532d;
+  --color-stone: #6b6b6b;
+  --font-heading: var(--font-heading);
+  --font-sans: var(--font-body);
+}
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  border-color: #d9d5cc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #faf7f0;
+  color: #2b2b2b;
+  font-family: var(--font-body), sans-serif;
+}
+
+.font-heading {
+  font-family: var(--font-heading), sans-serif;
+}
+
+.page-shell {
+  background:
+    radial-gradient(circle at top right, rgba(198, 138, 43, 0.08), transparent 24%),
+    linear-gradient(180deg, #faf7f0 0%, #f8f4ed 100%);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.86);
+  backdrop-filter: blur(10px);
+}
+
+.hero-overlay {
+  background: linear-gradient(90deg, rgba(20, 83, 45, 0.82) 0%, rgba(20, 83, 45, 0.28) 55%, rgba(20, 83, 45, 0.05) 100%);
+}
+
+.soft-shadow {
+  box-shadow: 0 10px 40px -16px rgba(20, 83, 45, 0.14);
+}
+
+.text-balance {
+  text-wrap: balance;
+}

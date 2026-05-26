@@ -1,0 +1,35 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#10271E"/>
+  <rect width="1200" height="900" fill="url(#paint0_radial)"/>
+  <g opacity="0.35" stroke="#C7D3CC" stroke-width="2">
+    <path d="M80 120H1120"/>
+    <path d="M80 210H1120"/>
+    <path d="M80 300H1120"/>
+    <path d="M80 390H1120"/>
+    <path d="M80 480H1120"/>
+    <path d="M80 570H1120"/>
+    <path d="M80 660H1120"/>
+    <path d="M80 750H1120"/>
+    <path d="M140 80V820"/>
+    <path d="M250 80V820"/>
+    <path d="M360 80V820"/>
+    <path d="M470 80V820"/>
+    <path d="M580 80V820"/>
+    <path d="M690 80V820"/>
+    <path d="M800 80V820"/>
+    <path d="M910 80V820"/>
+    <path d="M1020 80V820"/>
+  </g>
+  <path d="M180 640C290 590 310 420 460 430C620 440 590 230 790 250C930 264 960 130 1050 120" stroke="#7EE087" stroke-width="10" stroke-linecap="round"/>
+  <path d="M260 760C420 740 390 580 560 560C750 540 690 370 940 350" stroke="#DCF8E1" stroke-opacity="0.4" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="464" cy="430" r="28" fill="#0B4C2B" stroke="white" stroke-width="6"/>
+  <circle cx="790" cy="250" r="28" fill="#D5A24B" stroke="white" stroke-width="6"/>
+  <circle cx="940" cy="350" r="18" fill="#A4B0A9" stroke="white" stroke-width="4"/>
+  <circle cx="300" cy="590" r="18" fill="#A4B0A9" stroke="white" stroke-width="4"/>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(680 440) rotate(90) scale(560 720)">
+      <stop stop-color="#274A3A"/>
+      <stop offset="1" stop-color="#111C17"/>
+    </radialGradient>
+  </defs>
+</svg>
